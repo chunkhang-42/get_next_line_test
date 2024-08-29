@@ -6,7 +6,7 @@
 /*   By: mamu <mamu@student.42singapore.sg>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/21 22:14:54 by mamu              #+#    #+#             */
-/*   Updated: 2024/08/26 22:27:42 by mamu             ###   ########.fr       */
+/*   Updated: 2024/08/29 01:17:23 by mamu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,7 @@ int	main(int argc, char **argv)
 			printf("%3zu | %s", i, line);
 		else
 			printf("%s", line);
+		free(line);
 		i++;
 	}
 }
